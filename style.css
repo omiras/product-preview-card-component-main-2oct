@@ -12,10 +12,13 @@ html {
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Fraunces', serif;
     background-color: hsl(30, 38%, 92%);
     line-height: 1.7rem;
-
 }
 
 .product {
@@ -79,13 +82,6 @@ body {
 }
 
 @media (min-width: 900px) {
-
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-    }
 
     .product {
         display: flex;
