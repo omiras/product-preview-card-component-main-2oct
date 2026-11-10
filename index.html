@@ -24,7 +24,9 @@
   <main>
     <!-- Son elementos independientes que tu podrías mover por tu página Web-->
     <article class="product">
-      <img class="product__image" src="images/image-product-mobile.jpg" alt="imagen perfume">
+      <picture>
+        <source  media="(min-width: 600px)"    srcset="images/image-product-desktop.jpg">
+        <img class="product__image" src="images/image-product-mobile.jpg" alt="imagen perfume"></picture>
 
       <div class="product__info">
         <p class="product__category">Perfume</p>

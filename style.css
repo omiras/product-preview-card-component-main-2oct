@@ -11,9 +11,12 @@ body {
   background-color: #f2ebe3;
 }
 
-.product__image,
+
+
+.product picture,
 .product__info {
   flex: 1 1 400px;
+  min-width: 0;
 }
 
 .product {
@@ -22,6 +25,7 @@ body {
   max-width: 900px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .product__image {
